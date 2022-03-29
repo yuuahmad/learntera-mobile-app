@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022972424623",
+    "project_id": "learntera-app",
+    "storage_bucket": "learntera-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022972424623:android:c152f7456a28b7ceb47f5a",
+        "android_client_info": {
+          "package_name": "com.example.learntera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022972424623-hkbi96p5lmo3d8q20rp22q1n3mflh4ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learntera",
+            "certificate_hash": "1ac01c64c70aeab08d7c7e7e9f23d4ccbb5608a5"
+          }
+        },
+        {
+          "client_id": "1022972424623-63daml1mbd0j0kk732ecml05lsdp389s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl93QbzZeOaU5DcrFGZnwgdLSXEaJV9nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022972424623-63daml1mbd0j0kk732ecml05lsdp389s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
