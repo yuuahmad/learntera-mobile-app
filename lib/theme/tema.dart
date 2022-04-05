@@ -26,8 +26,8 @@ class PenggantiTema extends ChangeNotifier {
 class KustomTema {
   static ThemeData get temaTerang {
     return ThemeData(
-        primaryColor: Color.fromARGB(255, 192, 161, 67),
-        scaffoldBackgroundColor: Color.fromARGB(255, 236, 236, 236),
+        primaryColor: Color.fromARGB(255, 240, 229, 208),
+        scaffoldBackgroundColor: Color.fromARGB(255, 240, 229, 208),
         // komen dulu, karena saya ngak tahu gimana cara pakainya
         // textTheme: const TextTheme(
         //   headline1: TextStyle(fontSize: 30, color: Colors.black, fontWeight: FontWeight.w400),
@@ -57,3 +57,31 @@ class KustomTema {
         ));
   }
 }
+
+// tema untuk warna
+Color warnaUtama = Color.fromARGB(255, 240, 229, 208);
+Color warnaKedua = Color.fromARGB(255, 255, 250, 240);
+Color warnaUtamaAtas = Color.fromARGB(255, 255, 204, 106);
+Color warnaButtonUtama = Color.fromARGB(255, 198, 84, 32);
+Color warnaButtonSampingan = Color.fromARGB(255, 164, 139, 127);
+
+Color warnaDark = Color.fromARGB(255, 31, 31, 31);
+Color warnaLightDark = Color.fromARGB(255, 92, 78, 71);
+
+// tema untuk teks utama dan sekunder
+TextStyle headerUtamaaa = TextStyle(fontSize: 28, fontWeight: FontWeight.w400);
+TextStyle headerUtama1 = TextStyle(fontSize: 25, fontWeight: FontWeight.w400);
+TextStyle headerUtama1dark = TextStyle(fontSize: 25, fontWeight: FontWeight.w400, color: Colors.black87);
+TextStyle headerUtama2 = TextStyle(fontSize: 20, fontWeight: FontWeight.w400);
+TextStyle header1 = TextStyle(fontSize: 20);
+TextStyle header2 = TextStyle(fontSize: 16);
+
+// ini adalah tema untuk button
+// class MainButton extends StatelessWidget {
+//   const MainButton({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return 
+//   }
+// }

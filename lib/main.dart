@@ -6,6 +6,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:learntera/screen/authentifikasi/signin_page.dart';
 import 'package:learntera/screen/home_page.dart';
 import 'package:learntera/services/auth_services.dart';
+import 'package:learntera/services/dapatkan_buku.dart';
 import 'package:learntera/theme/tema.dart';
 import 'package:provider/provider.dart';
 import 'firebase_options.dart';
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(providers: [
       ChangeNotifierProvider(create: (_) => PenggantiTema(ThemeData.dark())),
       Provider<AuthService>(create: (_) => AuthService(FirebaseAuth.instance)),
+      Provider<DapatkanBuku>(create: (_) => DapatkanBuku()),
       StreamProvider(create: (context) => context.read<AuthService>().keadaanUser, initialData: null)
     ], child: MaterialDenganTema());
   }
